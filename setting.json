@@ -1,0 +1,163 @@
+// {
+//     "[dart]": {
+//         "editor.formatOnSave": true,
+//         "editor.codeActionsOnSave": {
+//         // "source.fixAll": "explicit",
+//         "source.fixAll": true,
+//         "source.organizeImports": true
+//         },
+//         "editor.formatOnType": true,
+//         "editor.rulers": [
+//             80
+//         ],
+//         "editor.selectionHighlight": false,
+//         "editor.tabCompletion": "onlySnippets",
+//         "editor.wordBasedSuggestions": "off"
+//     },
+//     "terminal.integrated.env.osx": {},
+//     "files.autoSave": "afterDelay",
+//     "dart.flutterHotReloadOnSave": "all",
+//     "dart.hotReloadOnSave": "all",
+//     "dart.openDevTools": "flutter",
+//     "git.autofetch": true,
+//     "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+//     "workbench.iconTheme": "material-icon-theme"
+// }
+// {
+//   "[dart]": {
+//     "editor.formatOnSave": true,
+//     "editor.formatOnType": true,
+//     "editor.rulers": [80],
+//     "editor.selectionHighlight": false,
+//     "editor.tabCompletion": "onlySnippets",
+//     "editor.wordBasedSuggestions": "off",
+//     "editor.codeActionsOnSave": {
+//       "source.fixAll": "explicit",
+//       "source.organizeImports": "explicit"
+//     }
+//   },
+//   "files.autoSave": "afterDelay",
+//   "files.autoSaveDelay": 1000,
+//   "dart.flutterHotReloadOnSave": "all",
+//   "dart.hotReloadOnSave": "all",
+//   "dart.openDevTools": "flutter",
+//   "git.autofetch": true,
+//   "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+//   "workbench.iconTheme": "material-icon-theme",
+  
+//   // Optional: better terminal UX
+//   "terminal.integrated.scrollback": 5000,
+//   "terminal.integrated.fontSize": 14,
+  
+//   // Better code suggestions
+//   "editor.suggestSelection": "first",
+//   "editor.inlineSuggest.enabled": true,
+  
+//   // Linting & analysis
+//   "dart.analysisExcludedFolders": [
+//     "build",
+//     ".dart_tool"
+//   ],
+//   "dart.flutterSdkPaths": [
+//     "C:\\Users\\Xenonapps\\fvm\\versions"
+//   ]
+// }
+{
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "dart.flutterHotReloadOnSave": "all",
+  "dart.hotReloadOnSave": "all",
+  "dart.openDevTools": "flutter",
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  
+  // Optional: better terminal UX
+  "terminal.integrated.scrollback": 5000,
+  "terminal.integrated.fontSize": 14,
+  
+  // Better code suggestions
+  "editor.suggestSelection": "first",
+  "editor.inlineSuggest.enabled": true,
+  
+  // Linting & analysis
+  "dart.analysisExcludedFolders": [
+    "build",
+    ".dart_tool"
+  ],
+  
+  // Flutter SDK Management (Fixed typo: removed 's' from Paths)
+  "dart.flutterSdkPaths": [
+    "C:\\Users\\Xenonapps\\fvm\\versions"
+  ],
+  
+  // Enhanced Dart/Flutter Development
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "dart.lineLength": 80,
+  "dart.showTodos": true,
+  "dart.completeFunctionCalls": true,
+  "dart.enableSnippets": true,
+  "dart.previewLsp": true,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  
+  // Better Editor Experience
+  "editor.minimap.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  
+  // Git Improvements
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetchPeriod": 180,
+  "git.decorations.enabled": true,
+  
+  // File Explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  
+  // Search & Replace
+  "search.exclude": {
+    "**/build": true,
+    "**/.dart_tool": true,
+    "**/node_modules": true,
+    "**/.git": true
+  },
+  
+  // Performance & UI
+  "window.titleBarStyle": "custom",
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.closeEmptyGroups": false,
+  "extensions.ignoreRecommendations": false,
+  
+  // JSON formatting (for pubspec.yaml and other configs)
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "diffEditor.ignoreTrimWhitespace": false
+}
