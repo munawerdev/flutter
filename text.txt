@@ -1,3 +1,5 @@
 https://www.azul.com/  //java manage
 
 https://www.flutterlibrary.com/  //flutter ui library
+
+flutter create . //project update base of new flutter verion 
