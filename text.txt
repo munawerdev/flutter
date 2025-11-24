@@ -2,4 +2,9 @@ https://www.azul.com/  //java manage
 
 https://www.flutterlibrary.com/  //flutter ui library
 
+
+//update project version
+
+flutter pub upgrade --major-versions
+pub.yaml update dart version
 flutter create . //project update base of new flutter verion 
