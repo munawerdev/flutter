@@ -9,3 +9,9 @@ https://fluttercomponentlibrary.com/
 flutter pub upgrade --major-versions
 pub.yaml update dart version
 flutter create . //project update base of new flutter verion 
+
+
+https://flutterinit.com/
+//Architect
+//your Flutter app.
+//Scaffold your entire Flutter app with your preferred state management, routing, and utilities.
