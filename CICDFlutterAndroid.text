@@ -1,0 +1,25 @@
+1. Google Cloud Setup (The "Bridge")
+Create Service Account: Go to IAM & Admin > Service Accounts. Create one (e.g., github-actions-deploy).
+
+Generate Key: Select the account -> Keys -> Add Key -> Create New Key (JSON). Download this file—it is your PLAY_STORE_SERVICE_ACCOUNT_JSON.
+
+Enable API: Search for "Google Play Android Developer API" in the Cloud Console and click Enable.
+
+2. Google Play Console (The "Permission")
+Invite User: Go to Users and Permissions -> Invite New User.
+
+Link Account: Add the email address of the Service Account you just created in Google Cloud.
+
+Grant Access: Under App Permissions, select your app and grant "Admin" or "Release Manager" rights.
+
+Note: Permissions can take up to 24 hours to sync, though they are usually instant.
+
+3. GitHub Secrets (The "Vault")
+Add these to your repository under Settings > Secrets and variables > Actions:
+
+Secret Name,Value Description
+ANDROID_KEY_ALIAS,The alias of your .jks file.
+ANDROID_KEY_PASSWORD,Password for the key.
+ANDROID_STORE_PASSWORD,Password for the keystore.
+ANDROID_UPLOAD_KEYSTORE_BASE64,The base64 string of your .jks file.
+PLAY_STORE_SERVICE_ACCOUNT_JSON,The entire content of the JSON file downloaded in Step 1.
